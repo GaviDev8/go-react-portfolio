@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gabriela Ortiz (GO) Portfolio
 
-## Getting Started
+## Description
+Welcome! This is a collection of the projects I'm currently developing as I build my professional portfolio.
 
-First, run the development server:
+👾 Motivation: Being a developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👾 Project Purpose: These projects serve to enrich my resume and enhance my career prospects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👾 Lessons Learned: Through these endeavors, I'm gaining a solid grasp of fundamental coding languages.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech-Stack
+Languages & Dependencies
+- ![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=Javascript)
+- ![Vite](https://img.shields.io/badge/Vite-black?style=for-the-badge&logo=vite)
+- ![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
+- ![THREE JS](https://img.shields.io/badge/THREE%20JS-black?style=for-the-badge&logo=threedotjs)
+- ![Tailwind](https://img.shields.io/badge/Tailwind-black?style=for-the-badge&logo=tailwind-css)
+- ![Framer-motion](https://img.shields.io/badge/Framer--motion-black?style=for-the-badge&logo=framer)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Key Features:
+1. Interactive UI: navbar disappears but when you scroll up it appears! Profile cards are dynamic and easy to follow
+2. 3D Animation: Everyone wants them and needs them 😏 
+3. Resume downloads 
 
-## Learn More
+- [Credits](#credits)
+- [License](#license)
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A heartfelt thank you to all my amazing colleagues, mentors, youtubers, and UC Berkley/EdX instructors! 🥰
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+MIT License
