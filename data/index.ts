@@ -1,3 +1,5 @@
+
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -168,6 +170,54 @@ export const companies = [
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
+];
+
+export const technologies = [
+  {
+    id: 1,
+    name: "HTML 5",
+    img: "/html.png",
+  },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+//   {
+//     name: "TypeScript",
+//     icon: typescript,
+//   },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+//   {
+//     name: "Three JS",
+//     icon: threejs,
+//   },
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//   },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+//   {
+//     name: "git",
+//     icon: git,
+//   },
+//   // {
+//   //   name: "Postgres",
+//   //   icon: post,
+//   // },
 ];
 
 export const workExperience = [
