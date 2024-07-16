@@ -178,46 +178,66 @@ export const technologies = [
     name: "HTML 5",
     img: "/html.png",
   },
-//   {
-//     name: "CSS 3",
-//     icon: css,
-//   },
-//   {
-//     name: "JavaScript",
-//     icon: javascript,
-//   },
-//   {
-//     name: "TypeScript",
-//     icon: typescript,
-//   },
-//   {
-//     name: "React JS",
-//     icon: reactjs,
-//   },
-//   {
-//     name: "Three JS",
-//     icon: threejs,
-//   },
-//   {
-//     name: "Tailwind CSS",
-//     icon: tailwind,
-//   },
-//   {
-//     name: "Node JS",
-//     icon: nodejs,
-//   },
-//   {
-//     name: "MongoDB",
-//     icon: mongodb,
-//   },
-//   {
-//     name: "git",
-//     icon: git,
-//   },
-//   // {
-//   //   name: "Postgres",
-//   //   icon: post,
-//   // },
+  {
+    id: 2,
+    name: "CSS 3",
+    img: "/css.png",
+  },
+  {
+    id: 3,
+    name: "JavaScript",
+    img: "/javascript.png",
+  },
+  {
+    id: 4,
+    name: "Python",
+    img: "/python-original.svg",
+  },
+  {
+    id: 5,
+    name: "PostSQL",
+    img: "/postgresql-original.svg",
+  },
+  {
+    id: 6,
+    name: "SQL",
+    img: "/sqldeveloper-original.svg",
+  },
+  {
+    id: 7,
+    name: "TypeScript",
+    img: "/typescript.png",
+  },
+  {
+    id: 8,
+    name: "React JS",
+    img: "/reactjs.png",
+  },
+  {
+    id: 9,
+    name: "Three JS",
+    img: "/threejs.svg",
+  },
+  {
+    id: 10,
+    name: "Tailwind CSS",
+    img: "/tailwind.png",
+  },
+  {
+    id: 11,
+    name: "Node JS",
+    img: "/nodejs.png",
+  },
+  {
+    id: 12,
+    name: "MongoDB",
+    img: "/mongodb.png",
+  },
+  {
+    id: 13,
+    name: "git",
+    img: "/git.png",
+  },
 ];
 
 export const workExperience = [
