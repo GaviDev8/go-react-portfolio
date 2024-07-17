@@ -5,7 +5,7 @@ import { companies, technologies } from '@/data';
 const TechStack: React.FC = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading mb-8">
+      <h1 className="heading md:mb-14">
         My{' '} 
         <span className="text-purple">Tech Stack</span>
       </h1>
