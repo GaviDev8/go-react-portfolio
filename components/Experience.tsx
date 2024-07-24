@@ -29,15 +29,30 @@ import React from 'react';
           technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
         },
         {
-          startMonth: 'Jun',
-          startYear: 2023,
-          endMonth: 'Dec',
-          endYear: 2023,
-          title: 'Web Developer',
-          company: 'Another Company Ltd.',
+          startMonth: 'Jan  ',
+          startYear: 2022,
+          endMonth: 'Feb',
+          endYear: 2024,
+          title: 'Executive Business Partner to CEO',
+          company: 'SandboxAQ',
           tasks: [
-            'Troubleshooting, debugging, maintaining, and improving existing software.',
-            'Observing user feedback to recommend improvements to existing software products.',
+            'Lead projects for SandboxAQ\'s launch (investment announcements, website design, and executive interviews) to ensure successful execution and alignment with organizational goals.',
+            'Executive Business and Strategic Partner to the CEO and his senior leadership team, contributing to the development and execution of SandboxAQ\'s product vision and strategy',
+            'Spearheaded CEO-driven strategic initiatives that include developing organizational roadmaps, managing company OKRs,leading QBRs, and overseeing project deadlines'
+          ],
+          technologies: ['HTML', 'CSS', 'JavaScript', 'Python'],
+        },
+        {
+          startMonth: 'April',
+          startYear: 2020,
+          endMonth: 'Dec',
+          endYear: 2021,
+          title: 'Executive Business Partner',
+          company: 'Sandbox@Alphabet, Alphabet Inc.',
+          tasks: [
+            'Partnered with executive teams to facilitate Sandbox\'s departure from Alphabet Inc. Led all administrative and operational aspects of this pivotal transition.',
+            'Aligned project objectives and OKRs with company targets and goals across 4 product development teams',
+            'Improved collaboration among 4 development teams by organizing and delivering pertinent data to directors and leads. Managed technical documentation and oversaw action items for efficient project management.'
           ],
           technologies: ['HTML', 'CSS', 'JavaScript', 'Python'],
         },
@@ -62,8 +77,9 @@ import React from 'react';
           <div className="flex flex-col gap-8">
             {timelineData.data.map((item, index) => (
               <div key={`timeline-item-${index}`} className="flex items-center">
-                <div className="flex justify-center items-center text-white rounded-full w-24 h-24 bg-slate-600">
-                  <div className="flex h-20 w-20 bg-slate-800 font-bold rounded-full justify-center items-center text-center text-xs text-purple">
+                <div className="flex justify-center items-center text-white"> 
+                {/* code for above div rounded-full w-24 h-24 bg-slate-600 */}
+                  <div className="flex h-24 w-24 bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] font-bold rounded-full justify-center items-center text-center text-xs text-white">
                     {formatDateRange(item.startMonth, item.startYear, item.endMonth, item.endYear)}
                   </div>
                 </div>
